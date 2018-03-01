@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sup De Web - TP 2 - Je me présente</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- imports de librairies -->
+  <link rel="stylesheet" href="https://designmodo.github.io/Flat-UI/dist/css/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://designmodo.github.io/Flat-UI/dist/css/flat-ui.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <!-- fin d'imports de librairies -->
+
+  <!-- imports personnels -->
+
+
+
+  <!-- fin imports personnels -->
+
+  <style>
+    /* les styles de notre page, ils positionnent correctement le footer */
+
+    body {
+      background-color: #fcfcfc;
+      padding-bottom: 300px;
+    }
+
+    footer a {
+      margin: 50px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .img-rounded {
+      width: 350px;
+      margin: 50px 0 50px 0;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      height: 40px;
+      line-height: 40px;
+      width: 100%;
+    }
+
+    /* mobile */
+
+    @media screen and (max-width: 768px) {
+      footer {
+        height: 80px;
+        line-height: 40px;
+      }
+    }
+  </style>
+</head>
+
+<body class="text-center">
+
+  <p class="introduction"></p>
+
+  <!-- Je met mon nom ici -->
+  <h2>Bonjour je suis l'élève 1</h2>
+
+  <!-- Je me décrit en quelques lignes -->
+  <p></p>
+
+  <!-- Je met mon nom ici -->
+  <h2>Bonjour je suis l'élève 2</h2>
+
+  <!-- Je me décrit en quelques lignes -->
+  <p></p>
+
+  <!-- Je met mon nom ici -->
+  <!-- <h2>Bonjour je suis l'élève 3</h2> -->
+
+  <!-- Je me décrit en quelques lignes -->
+  <!-- <p></p> -->
+
+  <script>
+    // ce petit script ajoute une image en haut du
+    $('body').prepend('<img src="./supdeweb-logo.jpg" alt="Sup de Web" style="width: 350px; margin: 50px 0 50px 0;" class="img-rounded">');
+  </script>
+
+  <footer>
+    -
+    <a target="_blank" href="https://www.linkedin.com/in/david-babel">David Babel </a> -
+    <a href="mailto:babel.david@gmail.com">Contact</a> -
+    <a href="mailto:sendto.babel.david@gmail.com">Rendu de TP</a> -
+    <a>2017</a> -
+  </footer>
+
+</body>
+
+</html>
